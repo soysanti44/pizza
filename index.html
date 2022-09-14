@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>los guzman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+</head>
+<body>
+    <script src="script.js"></script>
+  <div class="topnav"></div>
+  <img src="https://pizzachefmillbury.com/fts-content/uploads/sites/172/2020/07/Pizza-Chef-Millbury_Logo.png" alt="">
+  <div class="topnav-right">
+      <a href="#menu">vermeno</a>
+      <a href="#agregar_ingredientes">sugerir ingredientes</a>
+  </div>
+  <div class="row" id="menu">
+      <div class="img_div">
+          <img src="https://wasimpizza.com/wp-content/uploads/2022/02/pizza.png" alt="" class="img-responsive">
+      </div>
+      <div class="menu_div">
+          <button id="menu_list" onclick="obtener_menu()">vermenu
+          </button>
+          <div id="display_menu"></div>
+      </div>
+     
+  </div>
+   <div class="newRow" id="agregar_ingredientes">
+    <div class="block1">
+        <input type="" id="añadir" placeholder="escribe los ingredientes">
+        <br>
+        <br>
+        <button class="vtn btn-success" onclick="añadir_top()">añadir sugerensia</button>
+       <br>
+       <br>
+       <button id="add-topings" onclick="añadir()">ver pizza</button>
+     </div>
+    <div class="block2">
+        <div id="display-add-menu"></div>
+    </div>
+   </div>
+   <div>
+       <img src="https://github.com/Amdavalos/ADVC79/blob/main/images/topping.png?raw=true" alt=""class="img-responsive">
+   </div>
+
+
+</body>
+</html>
